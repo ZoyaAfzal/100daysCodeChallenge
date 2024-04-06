@@ -1,5 +1,5 @@
 //Question 108: Compare two strings to check if they are identical, ignoring case sensitivity.
-//This function compares two strings, ignoring case senstivity:
+//This function compares two strings, ignoring case sensitivity:
 function areStringEqualIgnoringCase(str1, str2) {
     //Converting both strings to lowercase before comparison:
     return str1.toLowerCase() === str2.toLowerCase();
