@@ -4,4 +4,4 @@
 export const multiply = (a: number, b: number): number => a * b;
 
 
-export const division = (a: number, b:number): number => a / b;
+export const divide = (a: number, b:number): number => a / b;

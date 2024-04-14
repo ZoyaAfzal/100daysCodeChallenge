@@ -7,7 +7,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 //Importing name exports:
 const math_1 = require("./math");
 console.log((0, math_1.multiply)(2, 6));
-console.log((0, math_1.division)(15, 5));
+console.log((0, math_1.divide)(15, 5));
 //Importing a default export:
 const calculator_1 = __importDefault(require("./calculator"));
 const addition = new calculator_1.default(4, 4);

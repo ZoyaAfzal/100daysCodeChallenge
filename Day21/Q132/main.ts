@@ -1,9 +1,9 @@
 //Question 132: Discuss the difference between default and named exports in JavaScript modules.
 
 //Importing name exports:
-import { multiply, division} from "./math";
+import { multiply, divide} from "./math";
 console.log(multiply(2, 6));
-console.log(division(15, 5));
+console.log(divide(15, 5));
 
 
 //Importing a default export:
