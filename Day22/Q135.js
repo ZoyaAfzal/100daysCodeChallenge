@@ -13,8 +13,8 @@ console.log(jsonString);
 export {};
 /*Output:
 {
-    name: "Charles",
-    age: 25,
-    city: "Austin"
+    "name": "Charles",
+    "age": 25,
+    "city": "Austin"
 }; */
 // Shows how adding indentation to the JSON string makes it easier to read.

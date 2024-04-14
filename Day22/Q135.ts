@@ -14,9 +14,9 @@ const jsonString = JSON.stringify(person, null, 2);
 console.log(jsonString);
 /*Output: 
 {
-    name: "Charles",
-    age: 25,
-    city: "Austin"
+    "name": "Charles",
+    "age": 25,
+    "city": "Austin"
 }; */
 
 // Shows how adding indentation to the JSON string makes it easier to read.
