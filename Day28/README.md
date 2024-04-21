@@ -19,7 +19,7 @@ the complexities of coding with confidence.
 
 3- Over Anaylysis:
    
-   Having a good command of a specific topic is good but overanalysis can make you the worst programmer and your progress will be slow. 
+   Having a good command of a specific topic is good but overanalysis can make you the worst programmer and your progress       will be slow. 
    You won’t be able to the target within a deadline.
 
 4- Read The Error Message Carefully:
@@ -43,7 +43,7 @@ the complexities of coding with confidence.
    Reading codes by other people is very helpful.
    Reading new things allows you to find solutions to problems faster.
 
-8. Enhance Your Problem-Solving Skills:
+8- Enhance Your Problem-Solving Skills:
 
    It is very essential that you work on your problem-solving skills.  
    Enhance your problem-solving skills by working constantly.
