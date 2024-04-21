@@ -53,7 +53,7 @@ the complexities of coding with confidence.
    You have to take time in order to complete the work properly (that is without mistakes).
    You should know how to divide your time in a way that is correct and gets completed on time.
 
- 10. Find a Perfect Mentor:
+ 10- Find a Perfect Mentor:
 
    For beginners, finding a mentor would be perfect as they will be guided properly from the start.
    The mentor should be an actual who should have proper knowledge about the things that you want to learn.
