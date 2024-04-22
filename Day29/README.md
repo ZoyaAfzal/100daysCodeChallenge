@@ -84,6 +84,9 @@ What makes JavaScript unique?
 
 JavaScript is the only browser technology that combines these three things.That’s what makes JavaScript unique. 
 That’s why it’s the most widespread tool for creating browser interfaces.
+    *Full integration with HTML/CSS.
+    *Simple things are done simply.
+    *Supported by all major browsers and enabled by default.
 
 Languages “over” JavaScript
 
