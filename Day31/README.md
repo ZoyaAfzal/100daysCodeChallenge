@@ -76,7 +76,109 @@ The example above can be split into two scripts to work:
   alert(1);
 </script>
 
+
 "Variables" :
+A variable :
+A variable is a “named storage” for data. We can use variables to store goodies, visitors, and other data.
+To create a variable in JavaScript, use the let keyword.
+
+The statement below creates (in other words: declares) a variable with the name “message”:
+let message;
+
+Now, we can put some data into it by using the assignment operator =:
+let message;
+message = 'Hello'; // store the string 'Hello' in the variable named message
+
+The string is now saved into the memory area associated with the variable. We can access it using the variable name:
+let message;
+message = 'Hello!';
+
+alert(message); // shows the variable content
+
+To be concise, we can combine the variable declaration and assignment into a single line:
+let message = 'Hello!'; // define the variable and assign the value
+
+alert(message); // Hello!
+
+The multiline variant is a bit longer, but easier to read:
+let user = 'John';
+let age = 25;
+let message = 'Hello';
+
+We can also declare multiple variables in one line:
+let user = 'John', age = 25, message = 'Hello';
+
+That might seem shorter, but we don’t recommend it. For the sake of better readability, please use a single line 
+per variable.
+
+var instead of let :
+
+In older scripts, you may also find another keyword: var instead of let:
+var message = 'Hello';
+The var keyword is almost the same as let. It also declares a variable but in a slightly different, “old-school” 
+way.
+
+We can also change it as many times as we want:
+
+let message;
+message = 'Hello!';
+message = 'World!'; // value changed
+alert(message);
+
+When the value is changed, the old data is removed from the variable:
+
+We can also declare two variables and copy data from one into the other.
+let hello = 'Hello world!';
+let message;
+
+// copy 'Hello world' from hello into message
+message = hello;
+
+// now two variables hold the same data
+alert(hello); // Hello world!
+alert(message); // Hello world!
+
+We can also declare two variables and copy data from one into the other.
+let hello = 'Hello world!';
+let message;
+
+// copy 'Hello world' from hello into message
+message = hello;
+
+// now two variables hold the same data
+alert(hello); // Hello world!
+alert(message); // Hello world!
+
+Declaring twice triggers an error :
+A variable should be declared only once.
+
+A repeated declaration of the same variable is an error:
+let message = "This";
+
+// repeated 'let' leads to an error
+let message = "That"; // SyntaxError: 'message' has already been declared
+
+Variable naming
+There are two limitations on variable names in JavaScript:
+ The name must contain only letters, digits, or the symbols $ and _.
+ The first character must not be a digit.
+
+Examples of valid names:
+let userName;
+let test123;
+
+The dollar sign '$' and the underscore '_' can also be used in names. They are regular symbols, just like letters, without any special meaning.
+
+These names are valid:
+let $ = 1; // declared a variable with the name "$"
+let _ = 2; // and now a variable with the name "_"
+
+alert($ + _); // 3
+
+
+Case matters :
+Variables named apple and APPLE are two different variables.
+
 
 Non-Latin letters are allowed, but not recommended :
 Technically, there is no error here. Such names are allowed.
