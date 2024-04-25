@@ -1,5 +1,4 @@
-Task155: 
-◾ <Data Types In JavaScript> ◾ 
+Task155: ◾Data Types In JavaScript◾ 
 A value in JavaScript is always of a certain type. For example, a string or a number. There are eight basic data types in JavaScript.
 
 ◼ Number :
