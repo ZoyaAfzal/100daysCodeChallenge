@@ -1,0 +1,36 @@
+<!--Task 156: Decrement-->
+
+<!DOCTYPE html>
+<html>
+<body>
+
+    <script>
+    //Decrement:
+    let counter = 2;
+    counter-- ;        // works the same as counter = counter - 1, but is shorter
+    alert( counter ); // 1
+    
+    //Prefix Decrement
+    let counter2 = 1;
+    let a = --counter2; // (*)
+    alert(a); // 0
+    /*In the example(*), the prefix form --counter decrements counter and returns the new value, 0. 
+    So, the alert shows 0.*/
+
+    //Postfix Decrement
+    let counter3 = 3;
+    let b = counter3--; // 
+    alert(b); 
+    /*In the example (*), the postfix form counter-- also decrements counter but returns the old value 
+    (prior to decrement). So, the alert shows 3.*/
+
+    //Prefix/Postfix Decrement
+    counter3 = 2
+    counter3--; //1
+    --counter3; //0
+    alert( counter3); //0
+    </script>
+
+        
+    </body>
+    </html>

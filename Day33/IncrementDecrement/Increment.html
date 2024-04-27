@@ -1,0 +1,35 @@
+<!--Task 156: Increment-->
+
+<!DOCTYPE html>
+<html>
+<body>
+
+    <script>
+    //Increment:
+    let counter = 2;
+    counter++;        // works the same as counter = counter + 1, but is shorter
+    alert( counter ); // 3
+    
+    //Prefix Increment
+    let counter2 = 1;
+    let a = ++counter2; // (*)
+    alert(a); // 2
+    /*In the example(*), the prefix form ++counter increments counter and returns the new value, 2. 
+    So, the alert shows 2.*/
+
+    //Postfix Increment
+    counter2 = 1;
+    let b = counter2++; // (*) changed ++counter to counter++
+    alert(b); //1
+    /*In the example (*), the postfix form counter++ also increments counter but returns the old value 
+    (prior to increment). So, the alert shows 1.*/
+
+    //Prefix/Postfix Increment
+    counter3 = 0
+    counter3++;
+    ++counter3;
+    alert( counter3); // 2, the lines above did the same
+    </script>
+
+</body>
+</html>
