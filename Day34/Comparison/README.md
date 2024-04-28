@@ -74,5 +74,6 @@ undefined only equals null, undefined, and no other value.
 
 Avoid problems :
 
-    Treat any comparison with undefined/null except the strict equality === with exceptional care.
+    Treat any comparison with undefined/null except the strict equality === with exceptional care
+    Don’t use comparisons >= > < <= with a variable which may be null/undefined, unless you’re really sure of what you’re doing. If a variable can have      these values, check for them separately.
     Don’t use comparisons >= > < <= with a variable which may be null/undefined, unless you’re really sure of what you’re doing. If a variable can have these values, check for them separately.
