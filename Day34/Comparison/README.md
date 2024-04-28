@@ -1,4 +1,5 @@
 Task157: "Comparisons" :
+
 We know many comparison operators from maths.
 In JavaScript they are written like this:
 
@@ -8,12 +9,14 @@ In JavaScript they are written like this:
     Not equals: In maths the notation is ≠, but in JavaScript it’s written as a != b.
 
 Boolean is the result :
+
 All comparison operators return a boolean value:
 
     true – means “yes”, “correct” or “the truth”.
     false – means “no”, “wrong” or “not the truth”.
 
 String comparison :
+
 To see whether a string is greater than another, JavaScript uses the so-called “dictionary” or “lexicographical” order.
 In other words, strings are compared letter-by-letter.
 
@@ -39,15 +42,16 @@ It is possible that at the same time:
 
 
 Strict equality :
+
 A strict equality operator === checks the equality without type conversion.
 In other words, if a and b are of different types, then a === b immediately returns false without an attempt to convert them.
 A regular equality check == has a problem. It cannot differentiate 0 from false.The same thing happens with an empty string.
 This happens because operands of different types are converted to numbers by the equality operator ==. An empty string, just like false, becomes a zero.
 There is also a “strict non-equality” operator !== analogous to !=.
-
 The strict equality operator is a bit longer to write, but makes it obvious what’s going on and leaves less room for errors.
 
 Comparison with null and undefined :
+
 There’s a non-intuitive behavior when null or undefined are compared to other values.
 
 For a strict equality check ===
@@ -59,7 +63,8 @@ There’s a special rule. These two are a “sweet couple”: they equal each ot
 For maths and other comparisons < > <= >=
 null/undefined are converted to numbers: null becomes 0, while undefined becomes NaN.
 
-Strange result: null vs 0
+Strange result: null vs 0 
+
 Let’s compare null with a zero:
 Mathematically, that’s strange. The "null is greater than or equal to zero", so in one of the comparisons above it must be true, but they are both false.
 The reason is that an equality check == and comparisons > < >= <= work differently. Comparisons convert null to a number, treating it as 0.
