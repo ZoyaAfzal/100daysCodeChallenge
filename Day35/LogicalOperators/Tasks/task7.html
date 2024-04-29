@@ -1,0 +1,25 @@
+<!--Task158: Q7-Check the range outside
+Write an if condition to check that age is NOT between 14 and 90 inclusively.
+
+Create two variants: the first one using NOT !, the second one – without it.
+-->
+
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+    //The first variant:
+    let age = prompt("What is your age?" , 12);
+
+    if (!(age >= 14 && age <= 90)){
+        alert("age is not between 14 and 90");
+    };
+
+   //The second variant:
+    if (age < 14 || age > 90){
+        alert("age is not between 14 and 90");
+    };
+    </script>
+    
+</body>
+</html>

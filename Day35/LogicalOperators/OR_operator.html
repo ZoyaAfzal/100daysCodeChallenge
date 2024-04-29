@@ -1,0 +1,23 @@
+<!--Logical Operators/|| OR -->
+
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+        
+        //|| OR Operator
+        //There are four possible logical combinations:
+        alert( true || true );   // true
+        alert( false || true );  // true
+        alert( true || false );  // true
+        alert( false || false ); // false
+       //the result is always true except for the case when both operands are false.
+    
+       //If an operand is not a boolean, it’s converted to a boolean for the evaluation.
+       if (1 || 0) { // works just like if( true || false )
+            alert( 'truthy!' );
+        } //the number 1 is treated as true, the number 0 as false
+
+    </script>
+</body>
+</html>
