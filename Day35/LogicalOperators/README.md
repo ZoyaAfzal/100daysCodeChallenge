@@ -1,4 +1,4 @@
-Task158:"Lo
+Task158:"Logical Operators"
 There are four logical operators in JavaScript: || (OR), && (AND), ! (NOT), ?? (Nullish Coalescing). Here we cover the first three, the ?? operator is in the next article.
 Although they are called “logical”, they can be applied to values of any type, not only boolean. 
 Their result can also be of any type.
@@ -51,7 +51,7 @@ AND “&&” finds the first falsy value.
 Given multiple AND’ed values :
 result = value1 && value2 && value3;
 
-The AND && operator does the following:
+The AND && operator does the following :
  Evaluates operands from left to right.
  For each operand, converts it to a boolean. If the result is false, stops and returns the original value of that operand.
  If all operands have been evaluated (i.e. all were truthy), returns the last operand.
