@@ -1,7 +1,5 @@
 Task158: Nullish coalescing operator '??' :
 
-\
-\
 A recent addition :
 This is a recent addition to the language. Old browsers may need polyfills.
 
