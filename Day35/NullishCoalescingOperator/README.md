@@ -38,7 +38,7 @@ other operations, such as +, *.
 Using ?? with && or || :
 
 Due to safety reasons, JavaScript forbids using ?? together with && and || operators, unless the precedence is explicitly specified with parentheses.
-The limitation is surely debatable, it was added to the language specification with the purpose to avoid pro
+The limitation is surely debatable, it was added to the language specification with the purpose to avoid programming mistakes, when people start to switch from || to ??. 
 
 So we may need to add parentheses in expressions. Otherwise, if we omit parentheses, then as * has the higher precedence than ??, it would execute first, leading to incorrect results.
 
