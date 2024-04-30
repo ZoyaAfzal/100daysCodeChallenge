@@ -1,4 +1,7 @@
 Task158: Nullish coalescing operator '??' :
+
+\
+\
 A recent addition :
 This is a recent addition to the language. Old browsers may need polyfills.
 
@@ -36,6 +39,10 @@ other operations, such as +, *.
 So we may need to add parentheses in expressions. Otherwise, if we omit parentheses, then as * has the higher precedence than ??, it would execute first, leading to incorrect results.
 
 Using ?? with && or || :
+
+Due to safety reasons, JavaScript forbids using ?? together with && and || operators, unless the precedence is explicitly specified with parentheses.
+The limitation is surely debatable, it was added to the language specification with the purpose to avoid programming mistakes, when people start to switch from || to ??. 
+
 
 Due to safety reasons, JavaScript forbids using ?? together with && and || operators, unless the precedence is explicitly specified with parentheses.
 The limitation is surely debatable, it was added to the language specification with the purpose to avoid programming mistakes, when people start to switch from || to ??. 
