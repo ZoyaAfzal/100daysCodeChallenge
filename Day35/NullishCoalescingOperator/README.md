@@ -34,6 +34,12 @@ Precedence of ?? :
 The precedence of the ?? operator is the same as ||. They both equal 3 in the MDN table.
 That means that, just like ||, the nullish coalescing operator ?? is evaluated before = and ?, but after most 
 other operations, such as +, *.
+
+Using ?? with && or || :
+
+Due to safety reasons, JavaScript forbids using ?? together with && and || operators, unless the precedence is explicitly specified with parentheses.
+The limitation is surely debatable, it was added to the language specification with the purpose to avoid pro
+
 So we may need to add parentheses in expressions. Otherwise, if we omit parentheses, then as * has the higher precedence than ??, it would execute first, leading to incorrect results.
 
 Using ?? with && or || :
