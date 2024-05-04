@@ -1,0 +1,29 @@
+<!--Task159: Q3- -Which values get shown by the "for" loop?
+For each loop write down which values it is going to show. Then compare with the answer.
+Both loops alert same values or not?
+
+The postfix form:
+for (let i = 0; i < 5; i++) alert( i );
+
+The prefix form:
+for (let i = 0; i < 5; ++i) alert( i );-->
+
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+        //The answer: from 0 to 4 in both cases.
+        for (let i = 0; i < 5; ++i) alert( i );
+
+        for (let i = 0; i < 5; i++) alert( i );
+
+        /*That can be easily deducted from the algorithm of for:
+    Execute once i = 0 before everything (begin).
+    Check the condition i < 5
+    If true – execute the loop body alert(i), and then i++
+    The increment i++ is separated from the condition check (2). That’s just another statement.
+    The value returned by the increment is not used here, so there’s no difference between i++ and ++i.*/
+    
+    </script>
+</body>
+</html>

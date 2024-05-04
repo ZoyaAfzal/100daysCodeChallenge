@@ -1,0 +1,42 @@
+<!--Task159: Loops/ Labels for break and continue-->
+
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+        //Labels for break/continue :
+        //In the code below we loop over i and j, prompting for the coordinates (i, j) from (0,0) to (2,2):
+        for (let i = 0; i < 3; i++) {
+
+        for (let j = 0; j < 3; j++) {
+
+        let input = prompt(`Value at coords (${i},${j})`, '');
+
+        // what if we want to exit from here to Done (below)?
+        }
+        }
+
+        alert('Done!');
+
+        //We need a way to stop the process if the user cancels the input.The break <labelName> statement in the loop below breaks out to the label:
+        outer: for (let i = 0; i < 3; i++) {
+
+        for (let j = 0; j < 3; j++) {
+
+        let input = prompt(`Value at coords (${i},${j})`, '');
+
+      // if an empty string or canceled, then break out of both loops
+       if (!input) break outer; // (*)
+
+      // do something with the value...
+        }
+        } 
+        alert('Done!');
+
+        //In the code above, break outer looks upwards for the label named outer and breaks out of that loop.
+       //So the control goes straight from (*) to alert('Done!').
+
+    </script>
+    
+</body>
+</html>

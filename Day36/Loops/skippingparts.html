@@ -1,0 +1,31 @@
+<!--Task159: Loops/ Skipping parts in for loop-->
+
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+        //Skipping parts in forloop:
+        //For example, we can omit begin if we don’t need to do anything at the loop start.
+        let i = 0; // we have i already declared and assigned
+        for (; i < 3; i++) { // no need for "begin"
+        alert( i ); // 0, 1, 2
+        }
+        
+        //We can also remove the step part:
+        let j = 0;
+
+        for (; j < 3;) {
+        alert( j++ );
+        }
+       //This makes the loop identical to while (i < 3).
+
+       //We can actually remove everything, creating an infinite loop:
+        for (;;) {
+        // repeats without limits
+        }
+        //Please note that the two for semicolons ; must be present. Otherwise, there would be a syntax error.
+
+    </script>
+    
+</body>
+</html>
