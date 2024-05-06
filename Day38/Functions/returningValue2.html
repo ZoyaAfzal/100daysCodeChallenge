@@ -1,0 +1,29 @@
+<!-- Task160: Functions in JavaScript/ Returning a Value-->
+
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+   //It is possible to use return without a value. That causes the function to exit immediately.
+   //For Example:
+    function showMovie(age) {
+    if ( !checkAge(age) ) {
+    return;
+    }
+    alert( "Showing you the movie" ); // (*)
+    // ...
+    }  //In the code above, if checkAge(age) returns false, then showMovie won’t proceed to the alert.
+    
+    //If a function does not return a value, it is the same as if it returns undefined:
+     function doNothing() { /* empty */ }
+     alert( doNothing() === undefined ); // true
+     
+    //An empty return is also the same as return undefined:
+    function doNothing() {
+    return;
+    }
+    alert( doNothing() === undefined ); // true
+    
+    </script>
+</body>
+</html>
