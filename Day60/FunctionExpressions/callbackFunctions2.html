@@ -1,0 +1,26 @@
+<!-- Function Expressions/ Callback Functions : -->
+
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+        //Callback Functions :
+        //We can use Function Expressions to write an equivalent, shorter function :
+
+        function ask(question, yes, no) {
+        if (confirm(question)) yes()
+        else no();
+        }
+
+        ask(
+        "Do you agree?",
+        function() { alert("You agreed."); },
+        function() { alert("You canceled the execution."); }
+        );
+
+      //Here, functions are declared right inside the ask(...) call. They have no name, and so are called anonymous. 
+      //Such functions are not accessible outside of ask (because they are not assigned to variables)
+    </script>
+    
+</body>
+</html>

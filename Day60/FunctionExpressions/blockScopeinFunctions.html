@@ -1,0 +1,41 @@
+<!-- Function Expressions/ Functions Block Scope : -->
+
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+        //The correct approach would be to use a Function Expression and assign welcome to the variable 
+        //that is declared outside of if and has the proper visibility.let age = prompt("What is your age?", 18);
+
+        let welcome;
+
+        if (age < 18) {
+
+        welcome = function() {
+        alert("Hello!");
+        };
+
+        } else {
+
+        welcome = function() {
+        alert("Greetings!");
+        };
+
+        }
+
+       welcome(); // ok now
+
+       //Or we could simplify it even further using a question mark operator ?:
+
+        let age = prompt("What is your age?", 18);
+
+        let welcomeUser = (age < 18) ?
+        function() { alert("Hello!"); } :
+        function() { alert("Greetings!"); };
+
+        welcomeUser(); // ok now
+
+    </script>
+    
+</body>
+</html>

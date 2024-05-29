@@ -1,0 +1,54 @@
+<!-- Function Expressions/ Functions Block Scope : -->
+
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+        //Function Dec;laration within a code block:
+        //Function Declaration is only visible inside the code block in which it resides.
+        let age = prompt("What is your age?", 18);
+        // conditionally declare a function
+        if (age < 18) {
+
+        function welcome() {
+        alert("Hello!");
+        }
+
+        } else {
+
+        function welcome() {
+        alert("Greetings!");
+        }
+
+        }
+
+       // ...use it later
+       welcome(); // Error: welcome is not define
+    
+       //Here’s another example:
+       let age2 = 16; // take 16 as an example
+
+        if (age2 < 18) {
+        welcome();               // \   (runs)
+                           //  |
+        function welcome() {     //  |
+        alert("Hello!");       //  |  Function Declaration is available
+        }                        //  |  everywhere in the block where it's declared
+                           //  |
+        welcome();               // /   (runs)
+
+        } else {
+
+        function welcome() {
+        alert("Greetings!");
+        }
+        }
+
+        // Here we're out of curly braces,
+    // so we can not see Function Declarations made inside of them.
+        welcome(); // Error: welcome is not defined
+
+    </script>
+    
+</body>
+</html>
