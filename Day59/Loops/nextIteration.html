@@ -1,0 +1,30 @@
+<!--Task159: Loops/ Continue to the next Iteration-->
+
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+        //Continue to the next iteration:
+        //The loop below uses continue to output only odd values:
+        for (let i = 0; i < 10; i++) {
+
+        // if true, skip the remaining part of the body
+        if (i % 2 == 0) continue;
+
+        alert(i); // 1, then 3, 5, 7, 9
+        }
+        /*For even values of i, the continue directive stops executing the body and passes control to the next 
+        iteration of for (with the next number). So the alert is only called for odd values.*/
+        
+        
+        //We can just wrap the code in an if block instead of using continue:
+        for (let i = 0; i < 10; i++) {
+
+        if (i % 2) {
+        alert( i );
+        }
+        }
+    </script>
+    
+</body>
+</html>
