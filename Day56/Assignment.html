@@ -1,0 +1,36 @@
+<!--Task 156: Assignment-->
+
+<!DOCTYPE html>
+<html>
+<body>
+
+    <script>
+        
+    //Assignment   
+    let x = 2 * 2 + 1;
+    alert( x ); // 5
+    
+    /*In the example below, the result of expression (a = b + 1) is the value which was assigned to a (that is 3). 
+    It is then used for further evaluations.*/x
+    let a = 1;
+    let b = 2;
+
+    let c = 3 - (a = b + 1);
+
+    alert( a ); // 3
+    alert( c ); // 0
+    //Although, please don’t write the code like that. Such tricks definitely don’t make code clearer or readable.
+    
+    //Chaining Assignmentlet a, b, c;
+    let e = f = g = 2 + 2;
+
+    alert( e); // 4
+    alert( f ); // 4
+    alert( g ); // 4
+    /*Chained assignments evaluate from right to left. First, the rightmost expression 2 + 2 is evaluated and then 
+    assigned to the variables on the left: g, f and e*/
+
+    </script>
+
+</body>
+</html>
