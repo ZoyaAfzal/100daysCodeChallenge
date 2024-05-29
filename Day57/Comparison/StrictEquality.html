@@ -1,0 +1,18 @@
+<!--Task157: Strict Equality-->
+
+<!DOCTYPE html>
+<html>
+<body>
+    <script> 
+    //Strict Equality cannot differentiate 0 from false:
+    alert( 0 == false ); // true
+        
+    //The same thing happens with an empty string
+    alert( '' == false ); // true
+        
+    //In other words, if a and b are of different types, then a === b immediately returns false without an attempt to convert them.
+    alert( 0 === false ); // false, because the types are different
+    </script>
+    
+</body>
+</html>
