@@ -1,0 +1,1 @@
+let testingVariable: string = "Miss Zoya"
