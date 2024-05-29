@@ -1,0 +1,30 @@
+<!--Logical Operators/&& AND:-->
+
+
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+      //&& AND Operator
+      //There are four possible logical combinations:
+        alert( true && true );   // true
+        alert( false && true );  // false
+        alert( true && false );  // false
+        alert( false && false ); // false
+
+     //An example with if:
+        let hour = 12;
+        let minute = 30;
+
+        if (hour == 12 && minute == 30) {
+            alert( 'The time is 12:30' );
+        };
+        
+     //Just as with OR, any value is allowed as an operand of AND:
+        if (1 && 0) { // evaluated as true && false
+            alert( "won't work, because the result is falsy" );
+        };
+    
+    </script>
+</body>
+</html>
