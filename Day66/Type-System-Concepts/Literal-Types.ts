@@ -6,6 +6,6 @@ direction = "down";
 console.log(direction);
 
 function setColor(color: "red" | "green" | "blue") {
-    return `selected color is ${color}`
+    return `selected color is ${color}`;
 }
 console.log(setColor("red"));
