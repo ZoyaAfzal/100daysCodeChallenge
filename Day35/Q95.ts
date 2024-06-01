@@ -8,4 +8,4 @@ function filterGreaterThanTen(numbers:number[]){
 const numbers:number[] = [5,10,15,20,15,30,35,40];
 console.log(filterGreaterThanTen(numbers));
 
-//The new array will contain only the numbers greater than 10.
+//The new array will contain only the numbers greater than 10...
