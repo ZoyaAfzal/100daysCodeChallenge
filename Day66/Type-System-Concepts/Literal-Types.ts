@@ -1,4 +1,4 @@
-//Lieral Types :
+//Literal Types :
 
 let direction: "left" | "right" | "up" | "down";
 direction = "right";
