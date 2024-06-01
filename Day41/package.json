@@ -1,8 +1,8 @@
 {
-  "name": "day18",
+  "name": "day41",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "Q121.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^20.12.6"
+    "@types/node": "^20.13.0"
   }
 }
