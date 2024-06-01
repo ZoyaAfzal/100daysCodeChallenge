@@ -1,5 +1,5 @@
 {
-  "name": "datatypes",
+  "name": "day32",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^20.12.7"
+    "@types/node": "^20.12.3"
   }
 }
