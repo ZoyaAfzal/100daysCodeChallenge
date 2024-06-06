@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rendering Components</title>
+</head>
+<body>
+    <div id="app"></div>
+
+    <!--To render this component to the DOM, pass it as the first argument in the root.render() method:
+    index.html-->
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/jsx">
+      const app = document.getElementById("app")
+     
+      function Header() {
+         return <h1>Develop. Preview. Ship.</h1>
+       }
+     
+      const root = ReactDOM.createRoot(app);
+      root.render(<Header />);
+    </script>
+
+</body>
+</html>
