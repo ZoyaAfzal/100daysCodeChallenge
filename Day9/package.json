@@ -1,7 +1,6 @@
 {
   "name": "day9",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -10,7 +9,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "description": "",
   "devDependencies": {
-    "@types/node": "^20.11.30"
+    "@types/node": "^20.14.2"
   }
 }
