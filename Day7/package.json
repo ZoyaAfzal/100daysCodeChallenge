@@ -1,15 +1,17 @@
 {
   "name": "day7",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "undici-types": "^5.26.5"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "@types/node": "^20.11.30"
-  }
+  "description": ""
 }
